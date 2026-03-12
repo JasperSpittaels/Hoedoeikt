@@ -26,6 +26,11 @@ function getHtmlEntries(dir, entries = {}) {
 }
 
 export default defineConfig({
+<<<<<<< Updated upstream
+=======
+  base: "/Hoedoeikt/",
+
+>>>>>>> Stashed changes
   build: {
     rollupOptions: {
       input: {
