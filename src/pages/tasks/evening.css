@@ -1,0 +1,28 @@
+.grid {
+    display: grid;
+    grid-template-columns: auto auto;
+    position: absolute;
+    gap: 15px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.arrow-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.arrow-btn .arrow {
+    width: 20px;
+    transition: opacity 0.1s;
+}
+
+.arrow-btn:hover .arrow {
+    content: url("/images/icons/back_arrow2.webp");
+}
+
+.image-btn {
+    width: 90px;
+}
