@@ -2,7 +2,7 @@ name: Hoe doe ik 't
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "master" ]
   workflow_dispatch:
 
 permissions:
