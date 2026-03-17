@@ -23,8 +23,3 @@
 .arrow-btn:hover .arrow {
 	content: url("/images/icons/back_arrow2.webp");
 }
-
-#map {
-	width: 100vw;
-	height: 100vh;
-}

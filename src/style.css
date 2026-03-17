@@ -114,7 +114,7 @@
 
 .btn {
 	display: flex;
-	width: 150px;
+	width: 500px;
 	flex-direction: column;
 	gap: 15px;
 	position: absolute;
