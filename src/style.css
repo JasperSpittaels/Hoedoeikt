@@ -1,0 +1,124 @@
+.cls-1 {
+	fill: #ba628f;
+}
+
+.cls-2 {
+	fill: #6a9bbe;
+}
+
+.cls-3 {
+	fill: #d87065;
+}
+
+.cls-4 {
+	fill: #899773;
+}
+
+.cls-5 {
+	fill: #da8430;
+}
+
+.cls-6 {
+	fill: #d46f2e;
+}
+
+.cls-7 {
+	fill: #5d2111;
+}
+
+.cls-8 {
+	fill: #9c9157;
+}
+
+.cls-9 {
+	fill: #8d9578;
+}
+
+.cls-10 {
+	fill: #d4829a;
+}
+
+.cls-11 {
+	fill: #d03f34;
+}
+
+.cls-12 {
+	fill: #fff;
+}
+
+.cls-13 {
+	fill: #da7c80;
+}
+
+.cls-14 {
+	fill: #e07467;
+}
+
+.cls-15 {
+	fill: #d66548;
+}
+
+.cls-16 {
+	fill: #9f915f;
+}
+
+.cls-17 {
+	fill: #ce552c;
+}
+
+.cls-18 {
+	fill: #9dc6c9;
+}
+
+.cls-19 {
+	fill: #cf6823;
+}
+
+.cls-20 {
+	fill: #f1a5a5;
+}
+
+.cls-21 {
+	fill: #e9a445;
+}
+
+.cls-22 {
+	fill: #77722e;
+}
+
+.cls-23 {
+	fill: #d56a3b;
+}
+
+.cls-24 {
+	fill: #2978b4;
+}
+
+.cls-25 {
+	fill: #ac8937;
+}
+
+.cls-26 {
+	fill: #7d9999;
+}
+
+.veer {
+	transition: transform 0.25s ease;
+	transform-origin: center;
+	cursor: pointer;
+}
+
+.veer:hover {
+	transform: scale(1.4);
+}
+
+.btn {
+	display: flex;
+	width: 150px;
+	flex-direction: column;
+	gap: 15px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}

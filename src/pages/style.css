@@ -1,0 +1,30 @@
+.btn {
+	display: flex;
+	width: 150px;
+	flex-direction: column;
+	gap: 15px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.arrow-btn {
+	background: none;
+	border: none;
+	cursor: pointer;
+}
+
+.arrow-btn .arrow {
+	width: 20px;
+	transition: opacity 0.1s;
+}
+
+.arrow-btn:hover .arrow {
+	content: url("/images/icons/back_arrow2.webp");
+}
+
+#map {
+	width: 100vw;
+	height: 100vh;
+}
