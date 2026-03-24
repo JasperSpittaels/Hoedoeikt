@@ -1,3 +1,9 @@
+html, body {
+	height: 100%;
+	margin: 0;
+}
+
+
 .cls-1 {
 	fill: #ba628f;
 }
@@ -112,13 +118,8 @@
 	transform: scale(1.4);
 }
 
-.btn {
+.center {
 	display: flex;
-	width: 500px;
-	flex-direction: column;
-	gap: 15px;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
+	justify-content: center;
+	height: 100vh;
 }
