@@ -4,7 +4,6 @@ logs
 
 # Node.js dependencies
 node_modules/
-dist
 
 # Local environment files
 *.local
