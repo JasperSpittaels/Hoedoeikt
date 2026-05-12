@@ -2,18 +2,30 @@
 <html lang="nl">
 <head>
 	<meta charset="UTF-8" />
-	<link rel="icon" href="/talentintveld_logo.webp" />
+	<link rel="icon" href="talentintveld_logo.webp" />
 	<link rel="stylesheet" href="src/style.css" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<title>Hoe doe ik 't</title>
 </head>
 <body>
 	<div id="app">
-		<object data="preloads.html"></object>
+		<div id="preloads"></div>
 		<div class="center">
-			<object data="talentintveld_logo.html"></object>
+			<div id="talentintveld_logo"></div>
 		</div>
 	</div>
-  <script type="module" src="src/main.js"></script>
+	<script>
+    fetch("preloads.html")
+      .then(r => r.text())
+      .then(html => {
+        document.getElementById("preloads").innerHTML = html;
+      });
+    fetch("talentintveld_logo.html")
+			.then(r => r.text())
+			.then(html => {
+        document.getElementById("talentintveld_logo").innerHTML = html;
+			});
+	</script>
+	<script type="module" src="src/main.js"></script>
 </body>
 </html>
